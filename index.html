@@ -3,54 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Min Portfolio</title>
+  <title>Bianca Saber's Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
-      background-color: #f4f4f4;
-    }
-    h1, h2 {
+      font-family: 'Courier New', monospace;
+      background: #fcefee;
+      margin: 0;
+      padding: 0;
       color: #333;
     }
-    .project {
-      background: white;
+    header {
+      background: #fcdde8;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 4px solid #fcb8d2;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
       padding: 1rem;
-      margin-bottom: 1.5rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    section {
+      background: #ffffff;
+      border: 2px dashed #fcc3d4;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+    h2 {
+      color: #db5d87;
+      font-size: 1.6rem;
+      margin-top: 0;
     }
     .project a {
-      color: #0066cc;
+      color: #aa4a75;
+      text-decoration: none;
+    }
+    .project a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #fcdde8;
+      border-top: 2px solid #fcb8d2;
     }
   </style>
 </head>
 <body>
-  <h1>Hej! Jag heter [Ditt Namn]</h1>
-  <p>Jag utbildar mig till systemvetare med intresse för UX-design, programmering och DevOps.</p>
 
-  <h2>Projekt</h2>
+  <header>
+    <h1>Bianca Saber – Portfolio</h1>
+    <p>UX-design, systemutveckling och DevOps</p>
+  </header>
 
-  <div class="project">
-    <h3>1. UX-design i Figma</h3>
-    <p>Ett exempel på en appdesign jag har gjort. <a href="https://figma.com" target="_blank">Visa prototyp</a></p>
-  </div>
+  <main>
+    <section>
+      <h2>Om mig</h2>
+      <p>Jag är en systemvetare med passion för färg, struktur och användarvänliga lösningar. Jag gillar att arbeta både kreativt med design och tekniskt med kod och automation.</p>
+    </section>
 
-  <div class="project">
-    <h3>2. Enkel webbplats</h3>
-    <p>En webbplats jag byggt med HTML och CSS. <a href="https://github.com/dittkonto/projekt" target="_blank">Se koden</a></p>
-  </div>
+    <section>
+      <h2>Projekt</h2>
+      <div class="project">
+        <h3>🎨 UX-design i Figma</h3>
+        <p>Prototyp av en app med fokus på användbarhet och visuell balans. <a href="#">Se prototyp</a></p>
+      </div>
+      <div class="project">
+        <h3>🌐 Webbplats i HTML & CSS</h3>
+        <p>Responsiv webbsida med pastelltema. <a href="#">Visa kod på GitHub</a></p>
+      </div>
+      <div class="project">
+        <h3>⚙️ Automatisering med Python</h3>
+        <p>Script som förenklar arbetsflöden. <a href="#">Se projekt</a></p>
+      </div>
+    </section>
 
-  <div class="project">
-    <h3>3. Python-projekt</h3>
-    <p>Ett skript som automatiserar ett arbetsflöde. <a href="https://github.com/dittkonto/python-projekt" target="_blank">Visa på GitHub</a></p>
-  </div>
+    <section>
+      <h2>Kontakt</h2>
+      <p>Email: bianca@example.com</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/biancasaber" target="_blank">linkedin.com/in/biancasaber</a></p>
+    </section>
+  </main>
 
-  <h2>Kontakt</h2>
-  <p>Email: din.email@example.com</p>
-  <p>LinkedIn: <a href="https://linkedin.com/in/dittnamn">linkedin.com/in/dittnamn</a></p>
+  <footer>
+    <p>© 2025 Bianca Saber</p>
+  </footer>
 
 </body>
 </html>
+
